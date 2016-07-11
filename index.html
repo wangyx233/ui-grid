@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" id="theme" href="components/css/theme-default.css"/>
     <link rel="stylesheet" href="components/bower/angular-ui-grid/ui-grid.min.css">
 </head>
-<body ng-app="app">
+<body>
     <div ng-controller="MainCtrl">
         <div id="grid1" ui-grid='{data:myData}' class="grid">
             
@@ -22,8 +22,8 @@
     <!-- angularjs -->
     <script type="text/javascript" src="components/bower/angular/angular.min.js"></script>
     <script type="text/javascript" src="components/bower/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="components/bower/angular-ui-grid/ui-grid.min.js"></script>
-    <!-- <script type="text/javascript" src="modules/common/app.js"></script> -->
+    <script type="text/javascript" src="components/bower/angular-ui-grid/ui-grid.min.js"></script>
+    <script type="text/javascript" src="controller/grid.js"></script>
     <!-- angularjs end -->
     <!-- END SCRIPTS -->  
 </body> 
